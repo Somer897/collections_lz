@@ -27,7 +27,7 @@ while choice != 4:                                                  #цикл о
 
             #проверка нахождения элемента
             if b in dicto:
-                dicto(b) == c
+                dicto[b] = c
             else:
                 print('Error: такой человек не найден')
 
